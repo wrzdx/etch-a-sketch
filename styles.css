@@ -14,9 +14,11 @@ body {
   align-content: flex-start;
   max-width: 550px;
   margin: 0 auto;
+  background-color: black;
 }
 
 .block {
+  background-color: white;
   aspect-ratio: 1 / 1; 
   border: 1px solid rgb(71, 71, 71);
 }

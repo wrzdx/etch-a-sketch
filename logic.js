@@ -2,11 +2,16 @@ function createGrid(n=16) {
   let div = document.createElement("div");
   div.classList.toggle("block");
   div.style.width = `calc(100%/${n})`;
+  div.style.opacity = 1;
 
 
   let container = document.querySelector(".container");
   container.addEventListener("mouseover", (e) => {
-    e.target.style.backgroundColor = "pink";
+    let r = parseInt(Math.random()*100);
+    let g = parseInt(Math.random()*100);
+    let b = parseInt(Math.random()*100);
+    e.target.style.backgroundColor = `rgb(${r}% ${g}% ${b}%)`;
+    e.target.style.opacity -= 0.1;
   })
 
   for (let j = 0; j < n; ++j) {
