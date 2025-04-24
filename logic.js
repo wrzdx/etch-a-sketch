@@ -26,9 +26,9 @@ function removeGrid() {
 let updateBtn = document.querySelector(".update")
 updateBtn.addEventListener("click", (e) => {
   removeGrid();
-  let size = prompt("Size: (no more than 100)");
-  while (size > 100) {
-    size = prompt("Size: (no more than 100)");
+  let size = parseInt(prompt("Size:"));
+  while (size > 100 || size < 0 || isNaN(size)) {
+    size = prompt("Size: (no more than 100 and not less than 0)");
   }
   createGrid(size);
 })
