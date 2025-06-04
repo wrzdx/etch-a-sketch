@@ -2,9 +2,6 @@
 
 A browser drawing app created for [The Odin Project](https://www.theodinproject.com/) Foundations course.
 
-**Preview**: 
-![Preview](./image.png)
-
 **Live Demo**: [https://wrzdx.github.io/etch-a-sketch/](https://wrzdx.github.io/etch-a-sketch/)
 
 ## Project Focus
@@ -28,3 +25,5 @@ A browser drawing app created for [The Odin Project](https://www.theodinproject.
 1. `git clone https://github.com/wrzdx/etch-a-sketch.git`
 2. open `index.html` by browser
 
+**Preview**: 
+![Preview](./image.png)
