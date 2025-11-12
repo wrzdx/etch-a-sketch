@@ -26,4 +26,4 @@ A browser drawing app created for [The Odin Project](https://www.theodinproject.
 2. open `index.html` by browser
 
 **Preview**: 
-![Preview](./image.png)
+![Preview](./preview.png)
